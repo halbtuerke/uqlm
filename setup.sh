@@ -19,4 +19,6 @@ poetry install --with dev,test
 # Install pre-commit hooks
 poetry run pre-commit install
 
+poetry run pre-commit run --all-files
+
 echo "Setup complete."
